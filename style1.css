@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+.clear {
+  clear: both;
+}
+
+/* header starts here */
+.header-para {
+  padding: 10px 16px;
+  background: #5e0d0d;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.header-para b {
+  font-weight: 700;
+  color: #ffe400;
+  text-transform: uppercase;
+}
+
+/* Section-1 Picture & Form starts here */
+.sec-1 {
+  height: 550px;
+  background: url(../images/home/sec-1.jpg) center no-repeat;
+  background-size: cover;
+}
+form {
+  width: 36%;
+  padding: 20px 2px;
+  background-color: rgba(207, 191, 191, 0.7);
+  float: right;
+  position: relative;
+  top: 40px;
+  right: 90px;
+  color: rgb(29, 24, 24);
+  font-weight: bold;
+  border-radius: 10px;
+}
+form h1 {
+  color: rgb(50, 63, 36);
+  padding: 10px 10px;
+  text-align: center;
+}
+.inputs {
+  position: relative;
+  left: 25px;
+  color: rgb(165, 23, 23);
+}
+input,
+select {
+  position: absolute;
+  padding: 2px;
+  right: 40px;
+  width: 180px;
+  border-radius: 4px;
+}
+input:focus {
+  background-color: rgb(205, 240, 205);
+  outline: none;
+}
+form input[type="submit"] {
+  background-color: rgb(21, 5, 92);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: relative;
+  left: 100px;
+}
+form input[type="submit"]:hover {
+  background: royalblue;
+  color: rgb(255, 246, 246);
+  cursor: pointer;
+}
+
+.finput {
+  margin-bottom: 8px;
+}
+
+/* Section-2 Text & Picture starts here */
+.sec-2 .wrapper {
+  height: 591px;
+  background: url(../images/home/sec-2.jpg) center no-repeat;
+}
+.sec-2-left {
+  width: 50%;
+}
+.sec-2-l1 {
+  font-size: 34px;
+  color: #333;
+  margin: 50px 0 0;
+  float: left;
+}
+.sec-2-l2 {
+  font-size: 20px;
+  color: #0a7e01;
+  margin: 31px 0 0;
+  float: left;
+}
+.sec-2-l3 {
+  font-size: 14px;
+  margin: 21px 0 0;
+  float: left;
+  line-height: 19px;
+  text-align: left;
+}
+/* Section-3 Picture & Text starts here */
+.sec-3 .wrapper {
+  height: 761px;
+  background: url(../images/home/sec-3.jpg) center no-repeat;
+}
+.sec-3-right {
+  float: right;
+  width: 50%;
+}
+.sec-3-r1 {
+  float: left;
+  font-size: 34px;
+  color: #333;
+  margin: 36px 50px 0 0;
+}
+.sec-3-r2 {
+  float: left;
+  font-size: 20px;
+  color: #0a7e01;
+  margin: 15px 0 0 7px;
+}
+.sec-3-r3 {
+  font-size: 14px;
+  color: #000;
+  margin: 21px 0 0 7px;
+  float: left;
+  line-height: 19px;
+  text-align: left;
+}
+.side {
+  float: left;
+  width: 60%;
+}
+
+/* Section-4 Zig_Zag starts here */
+.sec-4 .wrapper {
+  height: 871px;
+  background: url(../images/home/sec-4.jpg) center no-repeat;
+}
+.sec-4-left {
+  float: left;
+  width: 40%;
+}
+.sec-4-l1,
+.sec-4-r1 {
+  font-size: 29px;
+  color: #0a7e01;
+  margin: 25px 0 0 37px;
+  padding-bottom: 4px;
+}
+.sec-4-l2,
+.sec-4-l3,
+.sec-4-l4 {
+  font-size: 16px;
+  margin: 26px 0 0 80px;
+}
+.sec-4-right {
+  position: relative;
+  top: 180px;
+  float: right;
+  width: 50%;
+}
+.sec-4-r2 {
+  padding: 30px 30px;
+}
+
+/* Section-5 Media starts here */
+.sec-5 .wrapper {
+  height: 929px;
+  background: url(../images/home/sec-5.jpg) center top no-repeat;
+}
+.sec-5-text {
+  padding: 20px 0;
+  font-size: 34px;
+  text-align: center;
+}
+.sec-5-top {
+  padding: 38px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  float: left;
+  position: relative;
+  left: 200px;
+}
+.sec-5-bottom {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  float: left;
+  position: relative;
+  left: 450px;
+}
+
+/* Section-6 Picture & Text starts here */
+.sec-6 .wrapper {
+  margin-top: 10px;
+  height: 647px;
+  background: url(../images/home/sec-6.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.sec-6-wrap {
+  height: 416px;
+}
+
+.sec-6-right {
+  float: right;
+  width: max-content;
+  text-align: center;
+}
+
+.sec-6-rtext1 {
+  color: #b8f052;
+  font-size: 46px;
+  font-weight: 600;
+  margin-top: 240px;
+  line-height: 48px;
+  padding-right: 10px;
+}
+
+.sec-6-rtext2 {
+  color: rgb(240, 228, 228);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 35px;
+  padding-left: 20px;
+  line-height: 23px;
+}
+
+/* Terms starts here */
+.terms {
+  margin: 0 auto;
+}
+.terms p {
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  font-size: small;
+}
+
+/* Footer starts here */
+footer {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.verified-logo {
+  margin: 20px 150px;
+}
+footer p {
+  padding: 15px;
+  color: #333;
+  text-align: center;
+  font-size: smaller;
+}
+
+.policy {
+    margin: 0 auto;
+}
+.policy ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 10px 10px;
+}
+.policy ul li {
+  list-style-type: none;
+  color: #666;
+  font-size: smaller;
+}
+
+/* Green-Strip starts here */
+.sec-2 .green-strip {
+  position: absolute;
+  top: 520px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sec-3 .green-strip {
+  position: absolute;
+  top: 686px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sec-4 .green-strip {
+  position: absolute;
+  top: 790px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.green-left {
+  color: white;
+}
+.green-right {
+  position: relative;
+  left: 400px;
+  float: right;
+}
+.green-right input {
+  background-color: tomato;
+  border: none;
+  color: seashell;
+  font-weight: 800;
+  padding: 10px;
+}
+.green-right input:hover{
+    background-color: rgb(255, 133, 88);
+    cursor: pointer;
+}
+
+
+
+
+/* Lets make it responsive with media query */
+
+/* >>>for small devices */
+@media only screen and (max-width: 576px) {
+  /* Footer starts here */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+.main-container{
+    /* width: 100vw; */
+}
+}
+
+@media (min-width: 1004px){
+    header .wrapper{
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+    }
+    .header-para {
+        width: auto;
+      }
+}
+
+@media(max-width: 1004px){
+    .sec-1 {
+    height: 530px;
+    background: url(../images/home/b21.jpg) center no-repeat;
+    background-size: cover;
+    width: fit-content;
+    /* object-fit: cover; */
+    }   
+}
